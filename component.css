@@ -1603,3 +1603,82 @@
 	transform-origin: 0% 100%;
 	transform: rotateX(90deg);
 }
+
+.btn-8a:hover {
+	-webkit-transform: rotateX(-15deg);
+	-moz-transform: rotateX(-15deg);
+	-ms-transform: rotateX(-15deg);
+	transform: rotateX(-15deg);
+}
+
+/* Button 8b */
+.btn-8b:after {
+	width: 100%;
+	height: 40%;
+	left: 0;
+	top: 100%;
+	background: #49a7df;
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: rotateX(-90deg);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: rotateX(-90deg);
+	transform-origin: 0% 0%;
+	transform: rotateX(-90deg);
+}
+
+.btn-8b:hover {
+	-webkit-transform: rotateX(15deg);
+	-moz-transform: rotateX(15deg);
+	-ms-transform: rotateX(15deg);
+	transform: rotateX(15deg);
+}
+
+/* Button 8c */
+.btn-8c:after {
+	width: 21%; /* should be 20% but there's a gap in Chrome Version 34.0.1847.131 */
+	height: 100%;
+	left: -20%;
+	top: 0;
+	background: #49a7df;
+	-webkit-transform-origin: 100% 0%;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform-origin: 100% 0%;
+	-moz-transform: rotateY(-90deg);
+	-ms-transform-origin: 100% 0%;
+	-ms-transform: rotateY(-90deg);
+	transform-origin: 100% 0%;
+	transform: rotateY(-90deg);
+}
+
+.btn-8c:hover {
+	-webkit-transform: rotateY(15deg);
+	-moz-transform: rotateY(15deg);
+	-ms-transform: rotateY(15deg);
+	transform: rotateY(15deg);
+}
+
+/* Button 8d */
+.btn-8d:after {
+	width: 20%;
+	height: 100%;
+	left: 100%;
+	top: 0;
+	background: #49a7df;
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: rotateY(90deg);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: rotateY(90deg);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: rotateY(90deg);
+	transform-origin: 0% 0%;
+	transform: rotateY(90deg);
+}
+
+.btn-8d:hover {
+	-webkit-transform: rotateY(-15deg);
+	-moz-transform: rotateY(-15deg);
+	-ms-transform: rotateY(-15deg);
+	transform: rotateY(-15deg);
+}
